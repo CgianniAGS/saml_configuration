@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata"
+   entityID="https://gdservices-dev-ed.my.salesforce.com" 
+   validUntil="2032-07-11T11:28:24.440Z">
+
+   <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#"></ds:Signature>
+
+   <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+      <md:KeyDescriptor use="signing">
+         <ds:KeyInfo>
+            <ds:X509Data>
+               <ds:X509Certificate>MIIErDCCA5SgAwIBAgIOAYHsmEdhAAAAAC0Zzn4wDQYJKoZIhvcNAQELBQAwgZAx
+KDAmBgNVBAMMH1NlbGZTaWduZWRDZXJ0XzExSnVsMjAyMl8wOTMwMTExGDAWBgNV
+BAsMDzAwRDdRMDAwMDAzT1dVdjEXMBUGA1UECgwOU2FsZXNmb3JjZS5jb20xFjAU
+BgNVBAcMDVNhbiBGcmFuY2lzY28xCzAJBgNVBAgMAkNBMQwwCgYDVQQGEwNVU0Ew
+HhcNMjIwNzExMDkzMDExWhcNMjMwNzExMDAwMDAwWjCBkDEoMCYGA1UEAwwfU2Vs
+ZlNpZ25lZENlcnRfMTFKdWwyMDIyXzA5MzAxMTEYMBYGA1UECwwPMDBEN1EwMDAw
+MDNPV1V2MRcwFQYDVQQKDA5TYWxlc2ZvcmNlLmNvbTEWMBQGA1UEBwwNU2FuIEZy
+YW5jaXNjbzELMAkGA1UECAwCQ0ExDDAKBgNVBAYTA1VTQTCCASIwDQYJKoZIhvcN
+AQEBBQADggEPADCCAQoCggEBAJZxwgomB3g+IYD50x6KgF8Bplx8wTbBsl6r3bZk
+n05b2pwSH85u0LhqQMv7KfQAv97SFcj2uuzwRsqucxBDdSIIe4iBk0SMKLds3eKS
+5177ob5JiFO6gwe7YPDzRMIR8J50BrwRw2xqhE9nJijhF97KrEYTEPX/vzK8ExXw
+rPaQFd1YF65dWhXT0BVAYIMXdDMYLEpLjamK5iDR28/+0cY2s6GmeQDWDQEDBGVC
++bVRvktpSFD5x9U1Gjj4UCo8F/4CHDOggu47TZAc5tncxhp3IVfYxr4L6arlk5GD
+817oC25JmB7M67yiIqDLYUZpEBkk3LRAxZynrKCIqNUg7/0CAwEAAaOCAQAwgf0w
+HQYDVR0OBBYEFEzlWLeFTEL5QATFW8PkmPMUHGBVMA8GA1UdEwEB/wQFMAMBAf8w
+gcoGA1UdIwSBwjCBv4AUTOVYt4VMQvlABMVbw+SY8xQcYFWhgZakgZMwgZAxKDAm
+BgNVBAMMH1NlbGZTaWduZWRDZXJ0XzExSnVsMjAyMl8wOTMwMTExGDAWBgNVBAsM
+DzAwRDdRMDAwMDAzT1dVdjEXMBUGA1UECgwOU2FsZXNmb3JjZS5jb20xFjAUBgNV
+BAcMDVNhbiBGcmFuY2lzY28xCzAJBgNVBAgMAkNBMQwwCgYDVQQGEwNVU0GCDgGB
+7JhHYQAAAAAtGc5+MA0GCSqGSIb3DQEBCwUAA4IBAQAqmWBIXSm+x9JkDRo4/+by
+0+3fArHmCLmcGNPUtpWtED1npwWeeIfU/T9Go5/DbypEgZfMwsc+6wxth9zx09rD
+D52tpl/bLvm+W1R8K8529TN+CocdSJw6AImD2gVJHBrouAnGJ/gCtPCRpGwJrM9R
+leTMo2jhc79fiA7iLvAHRnUdKWaE/rnW48DaHorwg5XdqrLylpY69dIq2IFAZsIK
+dzfytC+nlL5i24jrov4kFnA0UlaYiB1GuSged3qqb6dYuRLsz9+wKtcv/uKGjJUQ
+UMmnlZSj2/Jra8daQVbGS08YCfRMrcPXlWRlJ+USaOzuKxIraAhGT2SMfOafXNr8</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:KeyDescriptor use="encryption">
+         <ds:KeyInfo>
+            <ds:X509Data>
+               <ds:X509Certificate>MIIErDCCA5SgAwIBAgIOAYHsmEdhAAAAAC0Zzn4wDQYJKoZIhvcNAQELBQAwgZAx
+KDAmBgNVBAMMH1NlbGZTaWduZWRDZXJ0XzExSnVsMjAyMl8wOTMwMTExGDAWBgNV
+BAsMDzAwRDdRMDAwMDAzT1dVdjEXMBUGA1UECgwOU2FsZXNmb3JjZS5jb20xFjAU
+BgNVBAcMDVNhbiBGcmFuY2lzY28xCzAJBgNVBAgMAkNBMQwwCgYDVQQGEwNVU0Ew
+HhcNMjIwNzExMDkzMDExWhcNMjMwNzExMDAwMDAwWjCBkDEoMCYGA1UEAwwfU2Vs
+ZlNpZ25lZENlcnRfMTFKdWwyMDIyXzA5MzAxMTEYMBYGA1UECwwPMDBEN1EwMDAw
+MDNPV1V2MRcwFQYDVQQKDA5TYWxlc2ZvcmNlLmNvbTEWMBQGA1UEBwwNU2FuIEZy
+YW5jaXNjbzELMAkGA1UECAwCQ0ExDDAKBgNVBAYTA1VTQTCCASIwDQYJKoZIhvcN
+AQEBBQADggEPADCCAQoCggEBAJZxwgomB3g+IYD50x6KgF8Bplx8wTbBsl6r3bZk
+n05b2pwSH85u0LhqQMv7KfQAv97SFcj2uuzwRsqucxBDdSIIe4iBk0SMKLds3eKS
+5177ob5JiFO6gwe7YPDzRMIR8J50BrwRw2xqhE9nJijhF97KrEYTEPX/vzK8ExXw
+rPaQFd1YF65dWhXT0BVAYIMXdDMYLEpLjamK5iDR28/+0cY2s6GmeQDWDQEDBGVC
++bVRvktpSFD5x9U1Gjj4UCo8F/4CHDOggu47TZAc5tncxhp3IVfYxr4L6arlk5GD
+817oC25JmB7M67yiIqDLYUZpEBkk3LRAxZynrKCIqNUg7/0CAwEAAaOCAQAwgf0w
+HQYDVR0OBBYEFEzlWLeFTEL5QATFW8PkmPMUHGBVMA8GA1UdEwEB/wQFMAMBAf8w
+gcoGA1UdIwSBwjCBv4AUTOVYt4VMQvlABMVbw+SY8xQcYFWhgZakgZMwgZAxKDAm
+BgNVBAMMH1NlbGZTaWduZWRDZXJ0XzExSnVsMjAyMl8wOTMwMTExGDAWBgNVBAsM
+DzAwRDdRMDAwMDAzT1dVdjEXMBUGA1UECgwOU2FsZXNmb3JjZS5jb20xFjAUBgNV
+BAcMDVNhbiBGcmFuY2lzY28xCzAJBgNVBAgMAkNBMQwwCgYDVQQGEwNVU0GCDgGB
+7JhHYQAAAAAtGc5+MA0GCSqGSIb3DQEBCwUAA4IBAQAqmWBIXSm+x9JkDRo4/+by
+0+3fArHmCLmcGNPUtpWtED1npwWeeIfU/T9Go5/DbypEgZfMwsc+6wxth9zx09rD
+D52tpl/bLvm+W1R8K8529TN+CocdSJw6AImD2gVJHBrouAnGJ/gCtPCRpGwJrM9R
+leTMo2jhc79fiA7iLvAHRnUdKWaE/rnW48DaHorwg5XdqrLylpY69dIq2IFAZsIK
+dzfytC+nlL5i24jrov4kFnA0UlaYiB1GuSged3qqb6dYuRLsz9+wKtcv/uKGjJUQ
+UMmnlZSj2/Jra8daQVbGS08YCfRMrcPXlWRlJ+USaOzuKxIraAhGT2SMfOafXNr8</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://gdservices-dev-ed.my.salesforce.com/services/auth/sp/saml2/logout"/>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://gdservices-dev-ed.my.salesforce.com/services/auth/sp/saml2/logout"/>
+      <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://gdservices-dev-ed.my.salesforce.com?sc=0LE7Q000002MoRA" index="0" isDefault="true"/>
+      
+   
+     <md:AttributeConsumingService index="1">
+            <md:ServiceName xml:lang="it">Nome del servizio</md:ServiceName>
+            <md:ServiceDescription xml:lang="it">Descrizione del servizio</md:ServiceDescription>
+            <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="idCard" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="registeredOffice" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="expirationDate" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+        </md:AttributeConsumingService>
+
+   </md:SPSSODescriptor>
+   <md:Organization>
+        <md:OrganizationName xml:lang="it">https://gdservices-dev-ed.my.salesforce.com</md:OrganizationName>
+        <md:OrganizationDisplayName xml:lang="it">GDS Demo SPID</md:OrganizationDisplayName>
+        <md:OrganizationURL xml:lang="it">https://gdservices-dev-ed.my.salesforce.com/</md:OrganizationURL>
+   </md:Organization>
+   <md:ContactPerson contactType="other">
+	<md:Extensions>
+		<spid:VATNumber>IT12345678901</spid:VATNumber>
+ 		<spid:FiscalCode>XYZABCAAMGGJ000W</spid:FiscalCode>
+		<spid:Private/>
+ 	</md:Extensions>
+ 		<md:EmailAddress>spid@organizzazione.com</md:EmailAddress>
+		 <md:TelephoneNumber>+390123456789</md:TelephoneNumber>
+   </md:ContactPerson>
+   
+
+
+</md:EntityDescriptor>
